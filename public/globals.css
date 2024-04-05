@@ -1,0 +1,137 @@
+:root {
+  --top-nav-height: 51px;
+  --border-color: #dce6e9;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  color: #000;
+  margin: 0;
+  background-color: #fff;
+  /* Set background color for the entire page */
+  line-height: 1.6;
+}
+
+p {
+  line-height: 1.5em;
+  color: #666;
+  /* Update paragraph text color */
+  font-size: 16px;
+}
+
+h1 {
+  font-size: 40px;
+  color: #333;
+  font-weight: bold;
+}
+
+h2 {
+  margin: 1.5em 0;
+  color: #444;
+  font-size: 24px;
+  font-weight: bold;
+}
+
+a {
+  color: #007bff;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+/* Style code blocks */
+pre {
+  background-color: #f8f9fa;
+  padding: 10px;
+  border-radius: 5px;
+  overflow-x: auto;
+}
+
+code {
+  font-family: 'Courier New', monospace;
+}
+
+/* Style callouts */
+.callout {
+  border-left: 4px solid #007bff;
+  background-color: #f0f7ff;
+  padding: 10px;
+  margin: 20px 0;
+}
+
+/* Global styles */
+body {
+  font-family: Arial, sans-serif;
+  color: #000;
+  background-color: #fff;
+  line-height: 1.6;
+}
+
+/* Heading styles */
+h1,
+h2,
+h3 {
+  color: #000;
+}
+
+/* Link styles */
+a {
+  color: #007bff;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+/* Callout styles */
+.callout {
+  border-left: 4px solid #007bff;
+  background-color: #f0f0f0;
+  padding: 10px;
+  margin: 20px 0;
+}
+
+/* Code block styles */
+pre {
+  background-color: #f8f9fa;
+  padding: 10px;
+  border-radius: 5px;
+  overflow-x: auto;
+}
+
+/* Syntax highlighting for JSON */
+pre code {
+  display: block;
+  overflow-x: auto;
+  padding: 0;
+  background-color: transparent;
+}
+
+/* Highlighting of JSON keys */
+.token.property {
+  color: #000;
+}
+
+/* Highlighting of JSON string values */
+.token.string {
+  color: #008000;
+}
+
+/* Schemas styles */
+.schema {
+  margin-bottom: 20px;
+}
+
+/* Conclusion styles */
+#Conclusion {
+  margin-top: 40px;
+}
