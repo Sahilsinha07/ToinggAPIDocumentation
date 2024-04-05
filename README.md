@@ -1,4 +1,5 @@
 ## This is assignemt for Toingg. It is a detailed documentation of the API of Toingg made using Mark doc, Nest.js.
+# Youtube channel link for video explnataion - https://youtu.be/xfyOgQsrrA0
 
 ## Setup
 
